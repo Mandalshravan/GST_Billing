@@ -1,112 +1,103 @@
-GST Billing System 📊
+# GST Billing System 📊
 
 A comprehensive GST Billing system built with PHP, MySQL, and a responsive frontend. It helps manage party records, create invoices, generate PDF reports, and more.
 
-Table of Contents 🗂
+---
 
-Project Setup
+## Table of Contents 🗂
+- [Project Setup](#project-setup)
+- [User Registration & Login](#user-registration--login)
+- [Party Type Management](#party-type-management)
+- [PDF Generation](#pdf-generation)
+- [Search Functionality](#search-functionality)
+- [Invoice and GST Billing Creation](#invoice-and-gst-billing-creation)
+- [Record Editing & Deletion](#record-editing--deletion)
+- [Responsive Design & Mobile Compatibility](#responsive-design--mobile-compatibility)
 
-User Registration & Login
+---
 
-Party Type Management
+## Project Setup ⚙️
+- **Technologies Used:**
+  - **PHP** (Version 9)
+  - **MySQL** (Database: `GST Billing`)
+  - **Apache Server** (for local server)
 
-PDF Generation
+### Steps:
+1. Clone this repository to your local machine.
+2. Set up the database (`GST Billing`).
+3. Run the project on the Apache server.
 
-Search Functionality
+---
 
-Invoice and GST Billing Creation
+## User Registration & Login 🔑
+- Users can register and log in with credentials (e.g., username: "viol").
+- The dashboard displays no records initially after login.
 
-Record Editing & Deletion
+---
 
-Responsive Design & Mobile Compatibility
+## Party Type Management 🏢
+- Manage **Party Types** (Client, Employee, Vendor).
+- Add, edit, and delete records for each party type.
 
-Project Setup ⚙️
+---
 
-Technologies Used:
+## PDF Generation 📑
+- Generate PDF documents for individual and multiple records.
+- Export the records in PDF format with the option to filter via search functionality.
 
-PHP (Version 9)
+---
 
-MySQL (Database: GST Billing)
+## Search Functionality 🔍
+- Search records by phone numbers or other fields.
+- Displays search results or shows "No records found."
 
-Apache Server (for local server)
+---
 
-Steps:
+## Invoice and GST Billing Creation 💸
+- Create invoices with descriptions, tax amounts, and net profit calculations.
+- Invoices are stored in the database and visible in the dashboard.
 
-Clone this repository to your local machine.
+---
 
-Set up the database (GST Billing).
+## Record Editing & Deletion ✂️
+- Edit party records (e.g., change employee data).
+- Successfully delete records, with updates reflecting in the database.
 
-Run the project on the Apache server.
+---
 
-User Registration & Login 🔑
+## Responsive Design & Mobile Compatibility 📱
+- The project is **responsive** and works across various screen sizes.
+- Fully optimized for mobile devices, ensuring smooth usability on phones and tablets.
 
-Users can register and log in with credentials (e.g., username: "viol").
+---
 
-The dashboard displays no records initially after login.
+## Features ✨
+- **User Authentication**: Secure login and registration.
+- **Party Management**: Add, edit, and delete party records.
+- **Invoice Creation**: Generate invoices with GST tax calculations.
+- **PDF Export**: Export records to PDF format.
+- **Search**: Quickly search and filter records.
+- **Responsive Design**: Mobile-friendly and cross-device compatibility.
 
-Party Type Management 🏢
+---
 
-Manage Party Types (Client, Employee, Vendor).
+## Installation 🔧
+1. Clone this repository to your local machine:
 
-Add, edit, and delete records for each party type.
+    ```bash
+    git clone https://github.com/Mandalshravan/GST_Billing.git
+    ```
 
-PDF Generation 📑
+2. Set up the database in MySQL:
+   - Import the provided `GST Billing` SQL file into your local MySQL database.
 
-Generate PDF documents for individual and multiple records.
+3. Start your Apache server via **XAMPP** (or another local server).
 
-Export the records in PDF format with the option to filter via search functionality.
+4. Open the project in your browser:
 
-Search Functionality 🔍
+    ```
+    http://localhost/gst-billing
+    ```
 
-Search records by phone numbers or other fields.
+---
 
-Displays search results or shows "No records found."
-
-Invoice and GST Billing Creation 💸
-
-Create invoices with descriptions, tax amounts, and net profit calculations.
-
-Invoices are stored in the database and visible in the dashboard.
-
-Record Editing & Deletion ✂️
-
-Edit party records (e.g., change employee data).
-
-Successfully delete records, with updates reflecting in the database.
-
-Responsive Design & Mobile Compatibility 📱
-
-The project is responsive and works across various screen sizes.
-
-Fully optimized for mobile devices, ensuring smooth usability on phones and tablets.
-
-Features ✨
-
-User Authentication: Secure login and registration.
-
-Party Management: Add, edit, and delete party records.
-
-Invoice Creation: Generate invoices with GST tax calculations.
-
-PDF Export: Export records to PDF format.
-
-Search: Quickly search and filter records.
-
-Responsive Design: Mobile-friendly and cross-device compatibility.
-
-Installation 🔧
-
-Clone this repository to your local machine:
-
-git clone https://github.com/Mandalshravan/GST_Billing.git
-
-
-Set up the database in MySQL:
-
-Import the provided GST Billing SQL file into your local MySQL database.
-
-Start your Apache server via XAMPP (or another local server).
-
-Open the project in your browser:
-
-http://localhost/gst-billing
